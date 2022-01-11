@@ -1,0 +1,221 @@
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  letter-spacing: 0.03em;
+  font-family: Roboto;
+  /*-apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;*/
+}
+:root {
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-title-text: #212121;
+}
+/* цвет основного тектса #757575 */
+/* вторичный цвет #212121 */
+/*  акцент #2196F3 */
+/* белый #FFFFFF */
+/* adress text rgba(255, 255, 255, 0.6); */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #2F303A */
+/* фон блока #F5F4FA; */
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  color: #000000;
+  text-decoration: none;
+}
+.logo-text {
+  color: var(--accent-color);
+}
+/*Site nav*/
+.menu-nav {
+}
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-text);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.auth .link:hover,
+.auth .link:focus {
+  color: var(--accent-color);
+}
+/*блок заказа услуг*/
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  /* or 136% */
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  font-family: inherit;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.06em;
+}
+/* Main info */
+.feature {
+}
+.feature-title {
+  color: var(--primary-title-text);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-text {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+}
+/* Чем мы занимаемся */
+.doing {
+}
+.doing-title {
+  color: var(--primary-title-text);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Наша команда */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: var(--primary-title-text);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.members-name {
+  color: var(--primary-title-text);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+}
+.profession {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  font-family: Roboto;
+  font-weight: 400;
+  /* identical to box height */
+}
+/* Подвал */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: var(--primary-white-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.9;
+  text-decoration: none;
+}
+.adress-place {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  /* or 171% */
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  /* or 171% */
+}
+/* --ПОРТФОЛИО-- 
+Фильтр списка проєктов */
+.filter-section {
+}
+.filter-link {
+  text-decoration: none;
+}
+
+.filter-button {
+  color: var(--primary-title-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  /* identical to box height, or 162% */
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+}
+
+.filter-title {
+  color: var(--primary-title-text);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.filter-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+}
