@@ -22,7 +22,20 @@ body {
 /* основной цвет фона #E5E5E5 */
 /* вторичный цвет фона #2F303A */
 /* фон блока #F5F4FA; */
+
+/* контейнер */
+.conteiner{  
+  background-color: #fff000;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*логотип*/
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .logo {
@@ -73,7 +86,10 @@ body {
 .hero {
   background-color: #2f303a;
   text-align: center;
-}
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+  }
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -82,7 +98,11 @@ body {
   text-transform: uppercase;
   /* or 136% */
   letter-spacing: 0.06em;
-}
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  }
 
 .hero-button {
   color: var(--primary-white-color);
@@ -94,9 +114,15 @@ body {
   font-family: inherit;
   /* identical to box height, or 187% */
   letter-spacing: 0.06em;
-}
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  }
 /* Main info */
 .feature {
+  padding-top:94px;
+  padding-bottom: 94px;
 }
 .feature-title {
   color: var(--primary-title-text);
@@ -104,15 +130,23 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
 }
 .feature-text {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
+
+  margin: 0;
+  padding: 0;
 }
 /* Чем мы занимаемся */
 .doing {
+  padding-top:94px;
+  padding-bottom: 94px;
 }
 .doing-title {
   color: var(--primary-title-text);
@@ -120,18 +154,31 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
 }
 
 /* Наша команда */
 .team-section {
   background-color: #f5f4fa;
-}
+  padding-top:94px;
+  padding-bottom: 94px;
+ }
+ .team{
+    text-align: center;
+ }
 .team-title {
   color: var(--primary-title-text);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
 }
 .members-name {
   color: var(--primary-title-text);
@@ -139,8 +186,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
-}
+      /* identical to box height */
+  margin: 0;
+  padding: 0;
+  }
 .profession {
   color: var(--primary-text-color);
   font-size: 16px;
@@ -148,6 +197,8 @@ body {
   font-family: Roboto;
   font-weight: 400;
   /* identical to box height */
+  margin: 0;
+  padding: 0;
 }
 /* Подвал */
 .footer {
@@ -182,6 +233,8 @@ body {
 /* --ПОРТФОЛИО-- 
 Фильтр списка проєктов */
 .filter-section {
+  padding-top:94px;
+  padding-bottom: 94px;
 }
 .filter-link {
   text-decoration: none;
@@ -194,6 +247,7 @@ body {
   line-height: 1.62;
   cursor: pointer;
   /* identical to box height, or 162% */
+  padding: 6px 22px;
 }
 .filter-button:hover,
 .filter-button:focus {
