@@ -24,7 +24,7 @@ body {
 /* фон блока #F5F4FA; */
 
 /* контейнер */
-.conteiner{  
+.conteiner {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -32,8 +32,8 @@ body {
   margin-left: auto;
 }
 /*логотип*/
-header{
-  outline: 1px solid #ECECEC;
+header {
+  outline: 1px solid #ececec;
 }
 .list {
   padding: 0;
@@ -55,17 +55,17 @@ header{
   color: var(--accent-color);
 }
 /*Site nav*/
-.site-nav { 
-  display: flex;  
+.site-nav {
+  display: flex;
 }
-.site-nav .item + .item{
+.site-nav .item + .item {
   margin-left: 50px;
 }
 /*.site-nav .item:not(:last-child){
   outline: 1px solid red;
   margin-right: 50px;
 }*/
-.main-nav{
+.main-nav {
   display: flex;
   align-items: center;
 }
@@ -79,8 +79,8 @@ header{
   text-decoration: none;
 
   padding-top: 32px;
-  padding-bottom: 32px;  
-  }
+  padding-bottom: 32px;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -88,11 +88,11 @@ header{
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.auth{
+.auth {
   display: flex;
   margin-left: auto;
 }
-.auth .item+.item{
+.auth .item + .item {
   margin-left: 50px;
 }
 
@@ -106,7 +106,7 @@ header{
   text-decoration: none;
 
   padding-top: 32px;
-  padding-bottom: 32px;  
+  padding-bottom: 32px;
 }
 .auth .link:hover,
 .auth .link:focus {
@@ -119,7 +119,7 @@ header{
 
   padding-top: 200px;
   padding-bottom: 200px;
-  }
+}
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -132,7 +132,7 @@ header{
   margin: 0;
   padding: 0;
   margin-bottom: 30px;
-  }
+}
 
 .hero-button {
   color: var(--primary-white-color);
@@ -148,13 +148,13 @@ header{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 10px 32px;
-  }
+}
 /* Main info */
-.feature-list{
+.feature-list {
   display: flex;
 }
-.feature-list .item+.item{
-margin-left: 30px;
+.feature-list .item + .item {
+  margin-left: 30px;
 }
 .feature-title {
   color: var(--primary-title-text);
@@ -176,15 +176,14 @@ margin-left: 30px;
   padding: 0;
 }
 /* Чем мы занимаемся */
-.section.doing{
+.section.doing {
   padding-top: 0;
 }
-.doing-list{
+.doing-list {
   display: flex;
 }
-.doing-list .item+.item{
+.doing-list .item + .item {
   margin-left: 30px;
-  
 }
 .doing-title {
   color: var(--primary-title-text);
@@ -198,22 +197,22 @@ margin-left: 30px;
   margin-bottom: 50px;
 }
 
-/* Наша команда */
+/*--------------------------------- Наша команда ----------------------*/
 .team-section {
   background-color: #f5f4fa;
-  }
- .team {
-   display: flex;
-   text-align: center;     
- }
- .team .item + .item{
-   margin-left: 30px;
- }
- .team-frame{
-   padding:30px 0;
-   margin-left: auto;
-   margin-right: auto;
-    }
+}
+.team {
+  display: flex;
+  text-align: center;
+}
+.team .item + .item {
+  margin-left: 30px;
+}
+.team-frame {
+  padding: 30px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 .team-title {
   color: var(--primary-title-text);
   font-weight: bold;
@@ -231,11 +230,11 @@ margin-left: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-      /* identical to box height */
+  /* identical to box height */
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
-  }
+}
 .profession {
   color: var(--primary-text-color);
   font-size: 16px;
@@ -260,8 +259,8 @@ margin-left: 30px;
   font-size: 26px;
   line-height: 1.9;
   text-decoration: none;
-  margin:0;
-  padding: 0;  
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
 }
 .adress-place {
@@ -272,12 +271,12 @@ margin-left: 30px;
   line-height: 1.71;
   text-decoration: none;
   /* or 171% */
-  margin:0;
-  padding: 0;  
-  }
-  .adress-nav .item+.item{
-    margin-top: 9px;
-  }
+  margin: 0;
+  padding: 0;
+}
+.adress-nav .item + .item {
+  margin-top: 9px;
+}
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
@@ -286,15 +285,15 @@ margin-left: 30px;
   line-height: 24px;
   text-decoration: none;
   /* or 171% */
-  margin:0;
-  padding: 0;  
+  margin: 0;
+  padding: 0;
 }
 /* --ПОРТФОЛИО-- 
 Фильтр списка проєктов */
 .filter-section {
-  padding-top:94px;
+  padding-top: 94px;
   padding-bottom: 94px;
-  }
+}
 .filter-link {
   text-decoration: none;
 }
@@ -317,39 +316,38 @@ margin-left: 30px;
   line-height: 1.62;
   /* identical to box height, or 162% */
 }
-.button-block{
+.button-block {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-    }
-.button-block .item+.item{
-  margin-left: 8px ;
 }
-.filter{
+.button-block .item + .item {
+  margin-left: 8px;
+}
+.filter {
   display: flex;
   flex-wrap: wrap;
 }
-.filter .item{
+.filter .item {
   margin-right: 30px;
-  margin-bottom: 30px;;
+  margin-bottom: 30px;
 }
-.filter .item:nth-child(3n){
-  margin-right:0;
+.filter .item:nth-child(3n) {
+  margin-right: 0;
 }
-.filter .item:nth-last-child(-n+3){
+.filter .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
-.frame{
+.frame {
   /*  outline: 1px solid #EEEEEE;
     outline: 1px solid #EEEEEE;
     outline: 1px solid #EEEEEE;   */
-    border-right: 1px solid #EEEEEE;
-    border-left:1px solid #EEEEEE; 
-    border-bottom:1px solid #EEEEEE;
-    padding: 20px 24px;
-    
-    }
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
 .filter-title {
   color: var(--primary-title-text);
   font-weight: bold;
@@ -370,13 +368,13 @@ margin-left: 30px;
   margin: 0;
   /*padding: 0 24px 20px 24px;*/
 }
- /*паддинг секций*/
- .section {
-  padding-top:94px;
+/*паддинг секций*/
+.section {
+  padding-top: 94px;
   padding-bottom: 94px;
- } 
- img {
+}
+img {
   display: block;
-   max-width: 100%;
-   height: auto
+  max-width: 100%;
+  height: auto;
 }
